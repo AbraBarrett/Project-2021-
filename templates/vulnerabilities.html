@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/mainpage">Проверка</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/antiviruses">Антивирусы</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/vulnerabilities">Библиотека уязвимостей</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/">Проверка сайта через телеграмм</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Введите запрос" aria-label="Введите запрос">
+        <button class="btn btn" style="border-color: white;color: white" type="submit">Поиск</button>
+      </form>
+    </div>
+  </div>
+</nav>
+    <title>Hello, world!</title>
+  </head>
+  <body>
+  <center><p style="margin: 40px"><strong><h4>Библиотека уязвимотей</h4></strong></p></center>
+    <div class="accordion" id="accordionExample" style="margin: 50px">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Android Installer Hijacking
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p>Android Installer Hijacking — уязвимость в операционных системах семейства Google Android, позволяющая злоумышленникам перехватывать управление процессом установки программ из APK-файла и размещать таким образом на атакуемом устройстве произвольное вредоносное приложение.
+          Ей подвержены версии операционных систем Android 2.3, 4.0.3–4.0.4, 4.1.X, 4.2.X, а также некоторые предустановленные на устройства редакции Android 4.3.
+            Операционные системы Google Android версии 4.4 и старше данной уязвимости не содержат.</p>
+          <p>В момент установки приложения из .APK-файла на дисплее устройства демонстрируется список запрашиваемых данной программой системных разрешений, перечисленный в так называемом «манифесте» приложения.
+              Используя уязвимость Android Installer Hijacking, в процессе установки злоумышленники могут незаметно заменить любую программу, которой пользователь доверяет, произвольным вредоносным приложением.
+              Оно, в свою очередь, может получить доступ к хранящимся на инфицированном устройстве конфиденциальным данным.</p>
+          <p>Пользователь не подвергает свое устройство опасности, если скачивает приложения из источников, использующих защищенные хранилища APK-файлов, к которым злоумышленники не имеют доступа (например, каталог Google Play).
+              Фактически, уязвимость может сработать только если пользователь устанавливает приложение сам, загрузив его из неофициальных источников.</p>
+      </div>
+
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        BlueBorne
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+          <p>BlueBorne — серия уязвимостей в bluetooth-стеках ряда современных ОС, включая Google Android.
+          Эти уязвимости позволяют злоумышленникам удаленно, с привилегиями ядра ОС, выполнять вредоносный код на Android-устройствах с включенной подсистемой Bluetooth путем отправки специальным образом сформированных пакетов данных.
+          Такая дистанционная атака не требует предварительного сопряжения устройств, включения режима видимости (доступности для обнаружения) принимающего устройства или других подобных действий.
+          Для успешного проведения атаки достаточно, чтобы на атакуемом устройстве была включена связь по каналу Bluetooth, а атакующий находился на расстоянии не более 10 метров от потенциальной жертвы.
+          </p>
+          <p>
+              Теоретически возможно появление использующих эти уязвимости вредоносных программ, самостоятельно распространяющихся по беспроводным каналам от одного устройства к другому подобно сетевым червям.
+              Наибольшей опасности при этом подвергаются устройства, не получающие обновлений безопасности от производителей прошивки или разработчиков ОС.
+              Google устранил указанные уязвимости в обновлении Android, выпущенном в сентябре 2017 года.
+          </p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+       Extra Field
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+          <p>Extra Field — это уязвимость в Google Android, позволяющая злоумышленникам изменять содержимое установочного пакета любого приложения для этой ОС, не повредив его цифровую подпись.
+              При помощи данной уязвимости вирусописатели могут распространять троянские программы, внедрив вредоносный компонент в какое-либо легитимное или доверенное приложение.</p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingFour">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+        EvilParcel
+      </button>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+         <p>EvilParcel — группа схожих по принципу действия уязвимостей, обнаруженных в некоторых системных классах ОС Android.
+             В таких классах содержится ошибка, из-за которой при обмене данными между приложениями и операционной системой возможно изменение этих данных.
+             Если злоумышленник особым образом сформирует массив передаваемых данных, их значение после чтения будет отличаться от первоначального.
+          </p>
+          <p>
+              Вредоносные программы, использующие эти уязвимости, способны обходить проверки операционной системы, получать более высокие полномочия и выполнять действия, которые ранее были им недоступны.
+              Например, они могут возвращать устройства к заводским настройкам и самостоятельно устанавливать и удалять приложения без разрешения пользователей.
+              Кроме того, если троянцы эксплуатируют уязвимости EvilParcel совместно с другими уязвимостями, они могут подменять уже установленные программы их инфицированными версиями.
+          </p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingFive">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+        Fake ID
+      </button>
+    </h2>
+    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+         <p>Данная уязвимость, получившая наименование «Fake ID», позволяет вредоносным приложениям выдавать себя за легитимные доверенные программы для ОС Android при помощи поддельной или скомпрометированной цифровой подписи.
+             С использованием этой уязвимости на атакуемом устройстве может быть установлена и запущена троянская программа, реализующая тот или иной опасный функционал.
+          </p>
+          <p>
+             Уязвимость выявлена в операционных системах Google Android начиная с версии 2.1 до версии 4.4, на устройствах с неисправленной ошибкой 13678484 (некоторые производители смартфонов и планшетных ПК устранили данную ошибку с помощью специального обновления (патча)).
+          </p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingSix">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+        Heartbleed
+      </button>
+    </h2>
+    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+         <p>Heartbleed — уязвимость в библиотеке OpenSSL, входящей в состав мобильной платформы Google Android, которая теоретически позволяет злоумышленникам получить доступ к информации, защищаемой с использованием механизмов шифрования SSL/TLS.
+          </p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingSeven">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+        Janus
+      </button>
+    </h2>
+    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+         <p>Уязвимость в операционной системе Android, позволяющая злоумышленникам модифицировать приложения APK без изменения их цифровой подписи.
+             Архитектура Android подразумевает, что все разработчики должны подписывать свои приложения.
+             При установке обновлений система проверяет их цифровую подпись, и, если она совпадает с уже имеющейся версией, обновление устанавливается.
+          </p>
+          <p>
+            Уязвимость Janus позволяет добавлять дополнительный контент в APK-приложение, не модифицируя цифровую подпись.
+              Благодаря этому киберпреступники могут внедрить в обновление какой-либо безопасной программы вредоносный модуль, который будет беспрепятственно установлен и запущен на уязвимом устройстве.
+          </p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingEight">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+        MasterKey
+      </button>
+    </h2>
+    <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+          <p>
+              Уязвимость в ОС Google Android, получившая наименование MasterKey, была обнаружена в 2013 году и использует особенности проверки и обработки операционной системой содержимого .APK-файлов в процессе установки приложений.
+              С использованием данной уязвимости злоумышленники могут проинсталлировать на атакуемое мобильное устройство какую-либо вредоносную программу под видом легитимного приложения — это достигается путем модификации программных пакетов таким образом, что при внесении в них вредоносного функционала целостность их криптографической подписи не нарушается, и во время установки они рассматриваются ОС Android как немодифицированные.
+          </p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingNine">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+        Name Length Field
+      </button>
+    </h2>
+    <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+         <p>Name Length Field — уязвимость в операционной системе Google Android, теоретически позволяющая злоумышленникам модифицировать программный пакет приложения, внедрив в него вредоносный функционал без нарушения целостности цифровой подписи.
+             Все приложения для ОС Android распространяются в виде APK-файлов, представляющих собой ZIP-архив, в котором содержатся компоненты, необходимые для установки и работы данной программы.
+             В основе описываемой уязвимости лежит эксплуатация особенностей обработки операционной системой Android содержимого APK-файлов в процессе инсталляции приложения.
+          </p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTen">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+        ObjectInputStream Serialization
+      </button>
+    </h2>
+    <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+         <p>Уязвимость, получившая название ObjectInputStream Serialization, была обнаружена в ноябре 2014 года и представляет опасность для пользователей мобильной операционной системы Google Android версий младше 5.0.
+          </p>
+          <p>
+          Один из компонентов операционной системы имеет важную особенность обработки полученных данных, которая используется злоумышленниками для выполнения тех или иных вредоносных действий на зараженном устройстве.
+              Она заключается в том, что компонент ObjectInputStream, расположенный в системной папке luni/src/main/java/java/io/, не проверяет полученные объекты на способность поддерживать сериализацию.
+          </p>
+          <p>
+              Используя эту уязвимость, злоумышленники могут вмешиваться в работу операционной системы — например, завершать критически важные системные процессы Android.
+          </p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingEleven">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+        OpenSSLX509Certificate
+      </button>
+    </h2>
+    <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+         <p>OpenSSLX509Certificate — уязвимость в ОС Google Android, позволяющая злоумышленникам повышать привилегии запущенных приложений, благодаря чему вредоносная программа может получить в системе права пользователя system (UID 1000).
+             Уязвимости подвержена ОС Android 4.3 и более поздние версии (включая Android M).
+          </p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwelve">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+        PendingIntent
+      </button>
+    </h2>
+    <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+         <p>PendingIntent — уязвимость в подсистеме управления учетными записями приложений операционной системы Google Android версий младше 5.0.
+             В случае если какое-либо Android-приложение использует аутентификацию в том или ином интернет-сервисе, для него может быть реализован отдельный механизм регистрации учетной записи в системном разделе Android «Настройки — Аккаунты».
+             После однократного ввода пользователем своих учетных данных такое приложение может впоследствии обращаться к данному разделу всякий раз, когда требуется аутентификация пользователя. В процессе регистрации учетной записи операционная система передает приложению вводимые пользователем параметры, среди которых также передается специальное поле PendingIntent.
+             В силу наличия ошибки в компоненте src/com/android/settings/accounts/AddAccountSettings.java система не проверяет значение передаваемого поля, при этом PendingIntent имеет в ОС Android системные привилегии. Уязвимость теоретически позволяет злоумышленникам передать в качестве значения параметра PendingIntent какую-либо команду, например команду уничтожения данных на атакуемом мобильном устройстве, которая будет автоматически выполнена операционной системой.
+             Аналогичным образом злоумышленники могут направить соответствующему компоненту ОС команду, которая будет обработана как поступление нового СМС-сообщения с заданным содержимым, при этом поддельное СМС будет помещено в список полученных сообщений: таким образом пользователь с большой долей вероятности может принять его за реально полученное.
+          </p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThirteen">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+        SIM Toolkit (CVE-2015-3843)
+      </button>
+    </h2>
+    <div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingThirteen" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+         <p>Уязвимость в подсистеме SIM Application Toolkit (также называемой STK). Это набор инструментов, позволяющий SIM-карте инициировать и выполнять различные команды с целью реализации дополнительных функций (упомянутая технология используется, например, для формирования SIM-меню оператора связи).
+             Уязвимость CVE-2015-3843, обнаруженная в операционной системе Android версии 5.1 и ниже, позволяет злоумышленникам перехватывать и эмулировать SIM-команды.
+             Может использоваться, например, для создания поддельных окон при подтверждении финансовых транзакций.
+          </p>
+          <p>
+              Вредоносные программы, использующие эти уязвимости, способны обходить проверки операционной системы, получать более высокие полномочия и выполнять действия, которые ранее были им недоступны.
+              Например, они могут возвращать устройства к заводским настройкам и самостоятельно устанавливать и удалять приложения без разрешения пользователей.
+              Кроме того, если троянцы эксплуатируют уязвимости EvilParcel совместно с другими уязвимостями, они могут подменять уже установленные программы их инфицированными версиями.
+          </p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingFourteen">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
+        StageFright
+      </button>
+    </h2>
+    <div id="collapseFourteen" class="accordion-collapse collapse" aria-labelledby="headingFourteen" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+         <p>StageFright — уязвимость в ОС Android, позволяющая злоумышленникам выполнять на инфицированном устройстве произвольный код.
+             Уязвимости подвержены все версии Android начиная с 2.2 и вплоть до версии 5.1.1 включительно.
+             Следует отметить, что в версии Android 4.1 появился механизм ASLR (Address space layout randomization), который значительно затрудняет создание рабочего эксплойта для данной уязвимости.
+          </p>
+          <p>
+             В целях эксплуатации уязвимости злоумышленнику достаточно любым способом доставить на атакуемое устройство специальным образом сформированный mp4-файл, например, отправив соответствующее ММS-сообщение.
+              При этом со стороны пользователя не требуется предпринимать каких-либо дополнительных действий.
+          </p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingFifteen">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
+        StageFright 2.0
+      </button>
+    </h2>
+    <div id="collapseFifteen" class="accordion-collapse collapse" aria-labelledby="headingFifteen" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+         <p>StageFright 2.0 — уязвимость в ОС Android, позволяющая злоумышленникам выполнять на инфицированном устройстве произвольный код или, как минимум, вызывать аварийное завершение процесса mediaserver.
+             Уязвимости подвержены все версии Android начиная с 5.0.
+             Следует отметить, что в версии Android 4.1 появился механизм ASLR (Address space layout randomization), который значительно затрудняет создание рабочего эксплойта для данной уязвимости.
+          </p>
+          <p>
+              Для эксплуатации уязвимости злоумышленнику достаточно любым способом доставить на атакуемое устройство специальным образом сформированный mp3- или mp4-файл.
+              При этом пользователю не требуется предпринимать какие-либо дополнительные действия.
+          </p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingSixteen">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">
+        ToastOverlay
+      </button>
+    </h2>
+    <div id="collapseSixteen" class="accordion-collapse collapse" aria-labelledby="headingSixteen" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+         <p>Уязвимость в подсистеме оверлеев (окон, способных отображаться поверх других объектов) Android, позволяющая злоумышленникам создавать экранные формы, которые отображаются поверх других элементов интерфейса операционной системы и приложений.
+             Уязвимости подвержены все устройства, работающие под управлением Android версий от 4.3 до 8.0.
+             В обычных условиях для создания каких-либо визуальных форм поверх других окон приложению требуется запросить соответствующее разрешение ОС, но уязвимость ToastOverlay позволяет делать это без каких-либо дополнительных запросов.
+             Теоретически с помощью ToastOverlay злоумышленники могут демонстрировать на экране фишинговые окна, блокировать нормальную работу устройства, обманным путем заставить пользователя предоставить вредоносному приложению права администратора или выполнить какие-либо иные потенциально опасные действия.
+          </p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingSeventeen">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen">
+        WebViewCodeExecution
+      </button>
+    </h2>
+    <div id="collapseSeventeen" class="accordion-collapse collapse" aria-labelledby="headingSeventeen" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+         <p>WebViewCodeExecution (CVE-2012-6636) — это уязвимость в компоненте WebView мобильной операционной системы Google Android, позволяющая злоумышленникам выполнять на атакуемом устройстве произвольные сценарии на языке JavaScript.
+             С использованием таких сценариев, в свою очередь, возможен вызов произвольных функций Java. При помощи указанной уязвимости злоумышленники могут получить несанкционированный доступ к хранящимся на устройстве конфиденциальным данным пользователя, а также выполнять различные действия, например, отправлять СМС-сообщения.
+             При этом выполняемый на атакуемом устройстве сценарий имеет те же привилегии, что и эксплуатирующее уязвимость приложение.
+             Опасности подвержены все версии Google Android младше 4.2.
+          </p>
+          <p>
+              Ни один современный мобильный антивирус не в состоянии детектировать приложение, использующее уязвимость WebViewCodeExecution, поскольку такие приложения не содержат в себе вредоносного кода, — он, например, может быть загружен из Интернета в виде обычной веб-страницы.
+              В целях обеспечения безопасности пользователям рекомендуется не запускать на устройствах, работающих под управлением уязвимых версий ОС Android, любые приложения, полученные из непроверенных источников, а также внимательно отслеживать списки разрешений, которые требуют для своей работы устанавливаемые программы.
+          </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+  </body>
+<footer class="footer-dark bg-primary">
+ <div  class="container">
+  <footer  style="position: marker" class="py-3 my-4">
+    <center><h4 style="color: white">Контакты</h4></center>
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="#" class="nav-link" style="color: white">WhatsApp</a></li>
+      <li class="nav-item"><a href="#" class="nav-link" style="color: white">VK</a></li>
+      <li class="nav-item"><a href="#" class="nav-link" style="color: white">Telegram</a></li>
+      <li class="nav-item"><a href="#" class="nav-link" style="color: white">Instagram</a></li>
+      <li class="nav-item"><a href="#" class="nav-link" style="color: white">Discord</a></li>
+    </ul>
+  </footer>
+</div>
+</footer>
+</html>
