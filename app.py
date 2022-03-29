@@ -2,7 +2,7 @@ from flask import Flask,render_template,request
 
 app = Flask(__name__)
 
-@app.route('/mainpage',methods=['POST','GET'])
+@app.route('/mainpage',methods=['POST'])
 def main_page():
     if request.method=='post':
         import re
