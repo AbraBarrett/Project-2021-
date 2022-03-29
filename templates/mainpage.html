@@ -2,18 +2,6 @@
 <html lang="en" xmlns="http://www.w3.org/1999/html">
   <head>
 
-    <script language="JavaScript">
-  function resultURL()
-  {
-    var left = (screen.width - 640)/2
-    var top =  (screen.height - 400)/2
-    window.open( "", "scan", "width=640"+
-                 ",height=400,left="+left+
-                 ",top="+top+",scrollbars=no,resizable=yes")
-    document.getElementById( "drwebscanformURL" ).target = "scan";
-    return true;
-  }
-</script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -46,11 +34,11 @@
 </nav>
   </head>
   <body>
-  <form class="form-floating" id="drwebscanformURL" action="https://online.drweb.com/result/" onSubmit="return resultURL()" method="post" style="margin: 70px">
+  <form class="form-floating" id="checker"  method="post" onsubmit="" style="margin: 70px">
 		<div ><input type="text" name="url"  value="http://" style="width:100%; height: 45px"></div>
-		<div ><input type="submit"  class="btn btn-primary"  type="submit" src=""></div>
-</div>
+		<div ><input type="submit"  class="btn btn-primary"  src=""></div>
   </form>
+
   <ul class="list-unstyled" style="margin: 10px">
     <li><strong>Как заражаются сайты?</strong></li>
   <li>Несколько причин:
